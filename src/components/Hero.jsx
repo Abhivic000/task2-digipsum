@@ -17,8 +17,12 @@ const Hero = () => {
           </button>
         </div>
         <div className="flex justify-center items-center">
-          <div className="w-full h-96 relative bg-cover" style={{ backgroundImage: `url(herobg)` }}>
-          </div>
+        <div className="mt-5 ml-36"><svg width="436" height="670" viewBox="0 0 636 870" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M636 0V869.239L103.447 868.771L137.528 809.721H530.285L567.092 746.434H105.048L34.459 868.741L0 868.701V0H132.236L61.3578 122.805H565.102L601.63 59.5174H166.854L201.203 0H636Z" fill="white"/>
+<path d="M636 0V869.239L103.447 868.771L137.528 809.721H530.285L567.092 746.434H105.048L34.459 868.741L0 868.701V0H132.236L61.3578 122.805H565.102L601.63 59.5174H166.854L201.203 0H636Z" fill="#0061FE"/>
+</svg>
+</div>
+
         </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full flex justify-center py-4">
